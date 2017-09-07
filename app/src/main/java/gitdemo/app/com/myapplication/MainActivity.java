@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this, "Init Called", Toast.LENGTH_SHORT).show();
     }
     private void initComponents1(){
-        Toast.makeText(MainActivity.this, "Init Called", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Init Called1", Toast.LENGTH_SHORT).show();
     }
 }
