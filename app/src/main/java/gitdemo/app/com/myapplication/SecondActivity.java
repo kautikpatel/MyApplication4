@@ -1,10 +1,10 @@
 package gitdemo.app.com.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class SecondActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initComponents(){
-        Toast.makeText(MainActivity.this, "Init Called", Toast.LENGTH_SHORT).show();
+        Toast.makeText(SecondActivity.this, "Second Init Called", Toast.LENGTH_SHORT).show();
     }
 }
