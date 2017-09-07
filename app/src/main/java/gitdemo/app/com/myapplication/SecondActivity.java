@@ -18,7 +18,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
 
-    private void xyz(){
+    private void xyz3(){
         Toast.makeText(SecondActivity.this, "Second Init Called", Toast.LENGTH_SHORT).show();
     }
 }
